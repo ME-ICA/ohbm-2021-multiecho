@@ -61,6 +61,7 @@ Paul Taylor, Stephen Gotts, Adrian Gilmore, Daniel Glen, Richard Reynolds
 
 ### 2521 Cardiac Gated Multiecho fMRI Analysis Methods Comparison
 Tara Maronesy, Christine Sze Wan Law, Sean Mackey, Gary Glover
+
 [Abstract](https://ww4.aievolution.com/hbm2101/index.cfm?do=abs.viewAbs&src=ext&abs=2402)
 
 ### 2643 Deep Linear Modeling of MultiBand MultiEcho fMRI Reveals Reproducible Hierarchical FC Networks – Duplicate
