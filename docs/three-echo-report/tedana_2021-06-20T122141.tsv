@@ -1,0 +1,71 @@
+2021-06-20T12:21:41	tedana.workflows.tedana	INFO    	Using output directory: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset
+2021-06-20T12:21:41	tedana.workflows.tedana	INFO    	Loading input data: ['t', 'h', 'r', 'e', 'e', '-', 'e', 'c', 'h', 'o', '-', 'd', 'a', 't', 'a', 's', 'e', 't', '/', 't', 'h', 'r', 'e', 'e', '_', 'e', 'c', 'h', 'o', '_', 'C', 'o', 'r', 'n', 'e', 'l', 'l', '_', 'z', 'c', 'a', 't', '.', 'n', 'i', 'i', '.', 'g', 'z']
+2021-06-20T12:21:47	tedana.workflows.tedana	INFO    	Computing EPI mask from first echo
+2021-06-20T12:21:48	tedana.utils	WARNING 	5589 voxels in user-defined mask do not have good signal. Removing voxels from mask.
+2021-06-20T12:21:48	tedana.workflows.tedana	INFO    	Computing T2* map
+2021-06-20T12:21:49	tedana.combine	INFO    	Optimally combining data with voxel-wise T2* estimates
+2021-06-20T12:21:53	tedana.workflows.tedana	INFO    	Writing optimally combined data set: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset/desc-optcom_bold.nii.gz
+2021-06-20T12:21:53	tedana.decomposition.pca	INFO    	Computing PCA of optimally combined multi-echo data
+2021-06-20T12:21:53	mapca.mapca 	INFO    	Performing dimensionality reduction based on GIFT (https://trendscenter.org/software/gift/) and Li, Y. O., Adali, T., & Calhoun, V. D. (2007). Estimating the number of independent components for functional magnetic resonance imaging data. Human Brain Mapping, 28(11), 1251–1266. https://doi.org/10.1002/hbm.20359
+2021-06-20T12:21:54	mapca.mapca 	INFO    	Performing SVD on original data...
+2021-06-20T12:21:55	mapca.mapca 	INFO    	SVD done on original data
+2021-06-20T12:21:55	mapca.mapca 	INFO    	Estimating the subsampling depth for effective i.i.d samples...
+2021-06-20T12:21:56	mapca.mapca 	INFO    	Generating subsampled i.i.d. data...
+2021-06-20T12:21:56	mapca.mapca 	INFO    	Performing SVD on subsampled i.i.d. data...
+2021-06-20T12:21:56	mapca.mapca 	INFO    	SVD done on subsampled i.i.d. data
+2021-06-20T12:21:56	mapca.mapca 	INFO    	Effective number of i.i.d. samples 4731
+2021-06-20T12:21:56	mapca.mapca 	INFO    	Perform eigen spectrum adjustment ...
+2021-06-20T12:21:56	mapca.mapca 	INFO    	Estimating the dimensionality ...
+2021-06-20T12:21:56	mapca.mapca 	INFO    	Estimated number of components is 51
+2021-06-20T12:21:57	tedana.metrics.collect	INFO    	Calculating weight maps
+2021-06-20T12:21:57	tedana.metrics.collect	INFO    	Calculating parameter estimate maps for optimally combined data
+2021-06-20T12:21:58	tedana.metrics.collect	INFO    	Calculating z-statistic maps
+2021-06-20T12:21:58	tedana.metrics.collect	INFO    	Calculating F-statistic maps
+2021-06-20T12:22:02	tedana.metrics.collect	INFO    	Thresholding z-statistic maps
+2021-06-20T12:22:02	tedana.metrics.collect	INFO    	Calculating T2* F-statistic maps
+2021-06-20T12:22:03	tedana.metrics.collect	INFO    	Calculating S0 F-statistic maps
+2021-06-20T12:22:03	tedana.metrics.collect	INFO    	Counting significant voxels in T2* F-statistic maps
+2021-06-20T12:22:03	tedana.metrics.collect	INFO    	Counting significant voxels in S0 F-statistic maps
+2021-06-20T12:22:03	tedana.metrics.collect	INFO    	Thresholding optimal combination beta maps to match T2* F-statistic maps
+2021-06-20T12:22:06	tedana.metrics.collect	INFO    	Thresholding optimal combination beta maps to match S0 F-statistic maps
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Calculating kappa and rho
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Calculating variance explained
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Calculating normalized variance explained
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Calculating DSI between thresholded T2* F-statistic and optimal combination beta maps
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Calculating DSI between thresholded S0 F-statistic and optimal combination beta maps
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Calculating signal-noise t-statistics
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Counting significant noise voxels from z-statistic maps
+2021-06-20T12:22:09	tedana.metrics.collect	INFO    	Calculating decision table score
+2021-06-20T12:22:11	tedana.decomposition.pca	INFO    	Selected 51 components with mdl dimensionality detection
+2021-06-20T12:22:13	tedana.decomposition.ica	INFO    	ICA with random seed 42 converged in 67 iterations
+2021-06-20T12:22:13	tedana.workflows.tedana	INFO    	Making second component selection guess from ICA results
+2021-06-20T12:22:14	tedana.metrics.collect	INFO    	Calculating weight maps
+2021-06-20T12:22:15	tedana.metrics.collect	INFO    	Calculating parameter estimate maps for optimally combined data
+2021-06-20T12:22:15	tedana.metrics.collect	INFO    	Calculating z-statistic maps
+2021-06-20T12:22:15	tedana.metrics.collect	INFO    	Calculating F-statistic maps
+2021-06-20T12:22:21	tedana.metrics.collect	INFO    	Thresholding z-statistic maps
+2021-06-20T12:22:21	tedana.metrics.collect	INFO    	Calculating T2* F-statistic maps
+2021-06-20T12:22:21	tedana.metrics.collect	INFO    	Calculating S0 F-statistic maps
+2021-06-20T12:22:22	tedana.metrics.collect	INFO    	Counting significant voxels in T2* F-statistic maps
+2021-06-20T12:22:22	tedana.metrics.collect	INFO    	Counting significant voxels in S0 F-statistic maps
+2021-06-20T12:22:22	tedana.metrics.collect	INFO    	Thresholding optimal combination beta maps to match T2* F-statistic maps
+2021-06-20T12:22:24	tedana.metrics.collect	INFO    	Thresholding optimal combination beta maps to match S0 F-statistic maps
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Calculating kappa and rho
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Calculating variance explained
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Calculating normalized variance explained
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Calculating DSI between thresholded T2* F-statistic and optimal combination beta maps
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Calculating DSI between thresholded S0 F-statistic and optimal combination beta maps
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Calculating signal-noise t-statistics
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Counting significant noise voxels from z-statistic maps
+2021-06-20T12:22:27	tedana.metrics.collect	INFO    	Calculating decision table score
+2021-06-20T12:22:27	tedana.selection.tedica	INFO    	Performing ICA component selection with Kundu decision tree v2.5
+2021-06-20T12:22:29	tedana.io   	INFO    	Variance explained by ICA decomposition: 94.85%
+2021-06-20T12:22:33	tedana.io   	INFO    	Writing high-Kappa time series: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset/desc-optcomAccepted_bold.nii.gz
+2021-06-20T12:22:36	tedana.io   	INFO    	Writing low-Kappa time series: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset/desc-optcomRejected_bold.nii.gz
+2021-06-20T12:22:39	tedana.io   	INFO    	Writing denoised time series: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset/desc-optcomDenoised_bold.nii.gz
+2021-06-20T12:22:41	tedana.io   	INFO    	Writing full ICA coefficient feature set: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset/desc-ICA_components.nii.gz
+2021-06-20T12:22:41	tedana.io   	INFO    	Writing denoised ICA coefficient feature set: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset/desc-ICAAccepted_components.nii.gz
+2021-06-20T12:22:43	tedana.io   	INFO    	Writing Z-normalized spatial component maps: /Users/handwerkerd/code/tedana_community/ohbm-2021-multiecho/three-echo-dataset/desc-ICAAccepted_stat-z_components.nii.gz
+2021-06-20T12:22:43	tedana.workflows.tedana	INFO    	Workflow completed
+2021-06-20T12:22:43	tedana.workflows.tedana	INFO    	Making figures folder with static component maps and timecourse plots.
+2021-06-20T12:23:19	tedana.workflows.tedana	INFO    	Generating dynamic report
