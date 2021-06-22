@@ -4,11 +4,16 @@ This contains materials related to tedana and multi-echo fMRI presented at the O
 
 -----
 
-## Open Science Room (Proposed) Emergent Session: Multi-echo fMRI in practice
+## Open Science Room Emergent Session: Multi-echo fMRI in practice
+
+* Thursday, June 24th, 9:00AM EDT
+Emergent Session, Room 1
+* [Full Schedule for Open Science Room](https://ohbm.github.io/osr2021/schedule/)
+* [Direct Link to session](https://www.crowdcast.io/e/osr-emergents1/13)
 
 Multi-echo fMRI is an acquisition method where data is acquired at multiple echo times after each excitation pulse. This information can be used to reduce signal dropout and quantitatively identify and remove signal that is unlikely to be neural in origin. Multi-echo fMRI acquisition and processing methods have sufficiently matured to the point where the growing developer and user community would benefit from a discussion of what it’s like to use multi-echo fMRI in practice. In this emergent session, presenters will briefly answer three questions: (1) Why are you using multi-echo fMRI? (2) Are there any challenges of multi-echo fMRI that you’ve addressed and want to highlight? (3) What issue(s) with multi-echo fMRI would you like to see addressed? These presentations will be followed by time for discussion between presenters and attendees.
 
- If you are interested in presenting in this session or have thoughts for how to organize the session, please contact one of the organizers directly or [comment on issue #1](https://github.com/ME-ICA/ohbm-2021-multiecho/issues/1).
+**This session was organized by people who are part of the tedana project, but we want and welcome presenters who don't work on tedana. We're allowed 4 presenters total. If you are interested in presenting in this session or have thoughts for how to organize the session, please contact Dan Handwerker directly or [comment on issue #1](https://github.com/ME-ICA/ohbm-2021-multiecho/issues/1).**
 
  -----
 
