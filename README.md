@@ -26,7 +26,7 @@ Multi-echo fMRI is an acquisition method where data is acquired at multiple echo
 **Tedana Community**: Zaki Ahmed, Peter Bandettini, Katherine Bottenhorn, César Caballero-Gaudes, Logan Dowdle, Elizabeth DuPre,Javier Gonzalez-Castillo, Daniel Handwerker, Stephan Heunis, Angela Laird, Ross Markello, Stefano Moia, Taylor Salo, Joshua Teves, Eneko Uruñuela, Maryam Vaziri-Pashkam, Kirstie Whitaker
 
 [Abstract](https://ww4.aievolution.com/hbm2101/index.cfm?do=abs.viewAbs&src=ext&abs=1359) |
-[Poster](https://anyscreeninc.com/PF/OHBM/2021/OHBM-Educational-Courses/pdf_poster_files/Daniel_Handwerker60785c7f1b150/Daniel_Handwerker.pdf) |
+[Poster](./tedana_poster_OHBM2021_WithLinks.pdf) |
 [Standby Times](https://firebasestorage.googleapis.com/v0/b/sparkle-ohbm.appspot.com/o/assets%2Fcalendars%2Fposters%2Fposter1421.ics?alt=media) |
 [Visit Poster](https://ohbm.sparkle.space/in/poster1421)
 
